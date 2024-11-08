@@ -36,6 +36,12 @@
     margin-right: auto;
 }
 
+.container-small {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .row {
     display: flex;
     justify-content: center;
@@ -47,6 +53,8 @@
 
 .col-big {
     max-width: 70%;
+    position: relative;
+    margin-bottom: -136px;
 }
 
 .jumbo {
@@ -142,6 +150,23 @@ main p {
 
 .col-small > i {
     margin-top: 80px;
+}
+
+
+h2 {
+    padding-top: 180px;
+}
+
+.btn-radio {
+    margin-top: 70px;
+    display: flex;
+    gap: 50px;
+}
+
+.row-list {
+    border: 1px solid black;
+    width: calc(100% / 3);
+    display: block;
 }
 
 

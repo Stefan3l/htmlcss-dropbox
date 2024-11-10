@@ -238,6 +238,48 @@ ul > h2 {
     margin-top: 40px;
 }
 
+.contatta {
+    margin-top: 50px;
+    margin-bottom: 200px;
+    border: 1px solid black;
+}
+
+.contatta  > h4 {
+    text-align: center;
+    padding: 8px 0;
+}
+
+.col {
+    display: flex;
+}
+
+.col-cont-big {
+    max-width: 70%;
+    margin-left: 30px;
+}
+
+.col-cont-big > h2 {
+   padding-top: 35px;
+   padding-bottom: 20px;
+}
+
+.col-cont-big > h5 {
+    padding-bottom: 50px;
+}
+
+.col-cont-big > p {
+    line-height: 20px;
+}
+
+.col-cont-small {
+    max-width: 30%;
+}
+
+.col-cont-small > button {
+    margin-top: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
 /*----------------
     FOOTER

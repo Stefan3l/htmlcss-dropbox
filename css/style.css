@@ -350,17 +350,20 @@ ul > h2 {
 
 .col-big-end > nav {
     color: #1907ef;
+    margin-bottom: 150px;
 }
 
-.col-footer {
-    width: calc(100% / 5);
-    gap: 70px;
-}
+
 
 
 /*----------------
     FOOTER
 ------------------*/
+
+.col-footer {
+    width: calc(100% / 5);
+    gap: 70px;
+}
 
 .col-footer > h1 {
     margin-bottom: 40px;
@@ -376,4 +379,20 @@ ul > h2 {
     margin-left: 0;
     line-height: 30px;
     font-size: 12px;
+    margin-bottom: 100px;
+}
+
+hr {
+    width: 14%;
+    color: #fff;
+    margin-bottom: 46px;
+}
+
+.footer-bottom > ul {
+    margin-left: 0px;
+    font-size: 12px;
+}
+
+.fa-solid {
+    margin-left: 2px;
 }

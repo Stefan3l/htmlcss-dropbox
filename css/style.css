@@ -179,9 +179,17 @@ body {
     color: #fff;
 }
 
+.btn-primary:hover {
+    background-color: lightblue;
+}
+
 .btn-secondary {
     background-color: #ffffff;
     padding: 5px;
+}
+
+.btn-secondary:hover {
+    background-color: lightskyblue;
 }
 
 /*----------------
@@ -398,6 +406,7 @@ ul > h2 {
 .footer-bottom > ul {
     margin-left: 0px;
     font-size: 12px;
+    padding-bottom: 40px;
 }
 
 .fa-solid {

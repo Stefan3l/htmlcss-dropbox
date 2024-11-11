@@ -205,9 +205,6 @@ header nav > a {
 }
 
 
-
-
-
 /*----------------
     MAIN
 ------------------*/
@@ -382,7 +379,7 @@ ul > h2 {
     margin-bottom: 100px;
 }
 
-hr {
+.footer-hr {
     width: 14%;
     color: #fff;
     margin-bottom: 46px;

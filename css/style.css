@@ -217,6 +217,10 @@ header nav > a {
     color: #000;
 }
 
+a:hover {
+    color:#0061fe;
+}
+
 
 /*----------------
     MAIN

@@ -113,6 +113,11 @@ li {
     gap: 40px;
 }
 
+.row-secondary {
+    display: flex;
+    gap: 40px;
+}
+
 .col-small {
     max-width: 30%;
 }
@@ -326,6 +331,20 @@ ul > h2 {
 .col-bussines > h1 {
     font-size: 24px;
     margin-bottom: 40px;
+}
+
+.col-big-end {
+    max-width: 70%;
+}
+
+.col-big-end > h1 {
+    font-size: 46px;
+    margin-top: 200px;
+    margin-bottom: 70px;
+}
+
+.col-big-end > nav {
+    color: #1907ef;
 }
 
 

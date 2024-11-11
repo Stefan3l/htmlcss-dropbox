@@ -99,6 +99,14 @@ li {
     margin-right: auto;
 }
 
+.cont-partener {
+    display: flex;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 40px;
+}
+
 .row {
     display: flex;
     justify-content: center;
@@ -159,6 +167,11 @@ body {
 .btn-primary {
     background-color: #0061fe;
     color: #fff;
+}
+
+.btn-secondary {
+    background-color: #ffffff;
+    padding: 5px;
 }
 
 /*----------------
@@ -280,6 +293,23 @@ ul > h2 {
     padding-left: 20px;
     padding-right: 20px;
 }
+
+.img-partener {
+    margin-left: 0px;
+
+}
+
+.title-partener {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.paragraph-partener {
+    margin-bottom: 25px;
+}
+
+
 
 /*----------------
     FOOTER

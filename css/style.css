@@ -87,6 +87,11 @@ li {
 /*----------------
     LAYOUT
 ------------------*/
+footer {
+    background-color: #000000;
+    color: #fff;
+}
+
 .container-large {
     max-width: 1200px;
     margin-left: auto;
@@ -347,7 +352,28 @@ ul > h2 {
     color: #1907ef;
 }
 
+.col-footer {
+    width: calc(100% / 5);
+    gap: 70px;
+}
+
 
 /*----------------
     FOOTER
 ------------------*/
+
+.col-footer > h1 {
+    margin-bottom: 40px;
+    margin-top: 100px;
+    font-size: 18px;
+}
+
+.col-footer  li{
+    padding: 0px 0px;
+}
+
+.col-footer > ul {
+    margin-left: 0;
+    line-height: 30px;
+    font-size: 12px;
+}

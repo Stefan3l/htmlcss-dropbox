@@ -309,6 +309,24 @@ ul > h2 {
     margin-bottom: 25px;
 }
 
+.title-bussines {
+    padding-top: 100px;
+    font-size: 30px;
+}
+
+.col-bussines {
+    width: calc(100% / 3);
+    gap: 40px;
+}
+
+.col-bussines > img {
+    max-width: 100%;
+}
+
+.col-bussines > h1 {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
 
 
 /*----------------

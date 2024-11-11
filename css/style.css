@@ -192,11 +192,16 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 10;
 }
 
 header nav {
     display: flex;
     gap: 26px;
+    align-items: center;
 }
 
 header nav > a {
@@ -216,6 +221,7 @@ header nav > a {
 main h1 {
     font-size: 80px;
     margin-bottom: 70px;
+    margin-top: 20px;
 }
 
 main p {
@@ -252,6 +258,10 @@ main p {
 
 .row-list > h4 {
     padding: 10px 0;
+}
+
+.row-list  li {
+    display: flex;
 }
 
 ul > h2 {
